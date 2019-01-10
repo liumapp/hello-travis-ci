@@ -1,4 +1,4 @@
 language: java
 install: true
-script: ./gradlew build
+script: gradle build
 jdk: oraclejdk8

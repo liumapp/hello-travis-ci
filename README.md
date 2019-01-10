@@ -17,10 +17,12 @@ ps: Travis CI只支持在GitHub使用
 
 直接在项目中创建一个".travis.yml"文件
 
+添加以下内容:
+
 ````yml
 language: java
 install: true
-script: ./gradlew build
+script: gradle build
 jdk: oraclejdk8
 ````
 
