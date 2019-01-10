@@ -18,6 +18,19 @@ ps: Travis CI只支持在GitHub使用
 直接在项目中创建一个".travis.yml"文件
 
 ````yml
-
+language: java
+install: true
+script: ./gradlew build
+jdk: oraclejdk8
 ````
+
+在Java项目中，我们常用的依赖管理工具就是Maven和Gradle，Travis CI默认是Maven3进行编译，所以当我们的项目使用Gradle的时候，需要配置它的script去使用Gradle
+
+ps: gradlew是Gradle在Linux环境下的可执行脚本文件
+
+
+
+
+
+
  
