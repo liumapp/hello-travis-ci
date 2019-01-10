@@ -13,10 +13,11 @@ ps: Travis CI只支持在GitHub使用
 
 ### 1.2 配置Travis-CI
 
-#### 1.2.1 去Travis-CI官网配置
+老版本的Travis CI需要登陆它的官网：https://travis-ci.com 选中项目来开启，但是通过GitHub的marketplace关联后，是默认支持所有项目，所以不再需要走这一步
 
+直接在项目中创建一个".travis.yml"文件
 
+````yml
 
-#### 1.2.2 在项目中添加配置文件
- 
+````
  
