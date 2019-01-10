@@ -9,6 +9,14 @@
 
 ps: Travis CI只支持在GitHub使用
 
+![register.png](https://github.com/liumapp/hello-travis-ci/blob/master/data/pic/register.png?raw=true)
 
+### 1.2 配置Travis-CI
+
+#### 1.2.1 去Travis-CI官网配置
+
+
+
+#### 1.2.2 在项目中添加配置文件
  
  
