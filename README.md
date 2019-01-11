@@ -3,7 +3,7 @@
 dd tt
 面向Java Web项目的Travis CI 教程. A tutorial of Travis CI for Java projects. 
 
-## 1. 如何使用
+## 1. 如何使用得到的
 
 ### 1.1 注册Travis-CI
 
