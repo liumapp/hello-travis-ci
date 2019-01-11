@@ -6,7 +6,7 @@ A tutorial of Travis CI mainly introduces how to use Travis CI's checking code f
 
 ## 目录
 
-* [1. 检验代码](#1. 检验代码)
+* [1. 检验代码](#检验代码)
     * [1.1 注册Travis-CI](#1.1 注册Travis-CI)
     * [1.2 配置Travis-CI](#1.2 配置Travis-CI)
     * [1.3 查看Travis-CI编译效果](#1.3 查看Travis-CI编译效果)
