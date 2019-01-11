@@ -10,8 +10,9 @@ A tutorial of Travis CI mainly introduces how to use Travis CI's checking code f
     * [1.1 注册Travis-CI](#11-注册Travis-CI)
     * [1.2 配置Travis-CI](#12-配置Travis-CI)
     * [1.3 查看Travis-CI编译效果](#13-查看Travis-CI编译效果)
-* [2. Code Review](#2.-Code-Review)
-* [3. 总结](#3.-总结)        
+* [2. Code Review](#2-Code-Review)
+* [3. 总结](#3-总结)        
+
                                                                                                             
 ## 1. 检验代码
 
