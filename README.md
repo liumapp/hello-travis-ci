@@ -1,8 +1,10 @@
 # hello-travis-ci  
 
-面向Java Web项目的Travis CI 教程. A tutorial of Travis CI for Java projects. 
+面向Java Web项目的Travis CI 教程，主要介绍如何使用Travis CI的检验代码功能和Code Review功能. 
 
-## 1. 如何使用
+A tutorial of Travis CI for Java projects, and introduces how to use Travis CI's checking code function and Code Review function.
+                                                                                                             
+## 1. 检验代码
 
 ### 1.1 注册Travis-CI
 
@@ -47,13 +49,37 @@ ps: gradlew是Gradle在Linux环境下的可执行脚本文件
 
 通过Travis-CI是可以实现Code Review的
 
-### 2.1 Fork这个项目
-
 要做code review，肯定是在两个人以上的团队作业形式才能开展
 
+参与方通过Fork项目后，发起PR，然后项目维护方负责对PR进行 code review，并指定由哪一个具体的人员进行code review
+
+在参与方发起pr后的流程如下所示：
+
+* 选择review负责人，如下图所示：
+
+    ![choice_reviewer.png](https://github.com/liumapp/hello-travis-ci/blob/master/data/pic/choice_reviewer.png?raw=true)
+
+* 选择完成后，该review负责人登录GitHub，将会查看到提示执行code review的信息，如下图所示：
+
+    ![add_review.png](https://github.com/liumapp/hello-travis-ci/blob/master/data/pic/add_review.png?raw=true)
+
+* review负责人审核代码，然后签署审核意见，常用的操作就是留下审核意见，并执行同意合并或者拒绝合并，如下图所示：
+
+    ![review_detail.png](https://github.com/liumapp/hello-travis-ci/blob/master/data/pic/review_detail.png?raw=true)
+
+* review负责人的审核结果，项目团队可以查看具体的审核结果（当然也包括了travis-ci的编译测试结果），如下所示：
+
+    ![check_review.png](https://github.com/liumapp/hello-travis-ci/blob/master/data/pic/check_review.png?raw=true)
+
+    以及
+    
+    ![review_result.png](https://github.com/liumapp/hello-travis-ci/blob/master/data/pic/review_result.png?raw=true)    
+    
+## 3. 总结
+
+如果您已经看到这里了，就给我一个star吧，让我有动力继续更新和编写更多的教程
 
 
-### 2.2 提交PR
 
 
 
