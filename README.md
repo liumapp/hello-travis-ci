@@ -42,6 +42,17 @@ ps: gradlew是Gradle在Linux环境下的可执行脚本文件
 
 ![detail.png](https://github.com/liumapp/hello-travis-ci/blob/master/data/pic/detail.png?raw=true)
 
+## 2. Code Review
+
+通过Travis-CI是可以实现Code Review的
+
+### 2.1 Fork这个项目
+
+要做code review，肯定是在两个人以上的团队作业形式才能开展
+
+
+
+### 2.2 提交PR
 
 
 
