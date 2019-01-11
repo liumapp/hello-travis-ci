@@ -36,6 +36,18 @@ ps: gradlew是Gradle在Linux环境下的可执行脚本文件
 
 登陆Travis CI的官网，找到我们的hello-travis-ci项目，就能够直观的查看每一次编译结果：
 
+![list.png](https://github.com/liumapp/hello-travis-ci/blob/master/data/pic/list.png?raw=true)
+
+如果编译失败的话，点击进去也可以查看具体问题出现在哪儿（travis ci自己会提供编译环境）
+
+![detail.png](https://github.com/liumapp/hello-travis-ci/blob/master/data/pic/detail.png?raw=true)
+
+
+
+
+
+
+
 
 
 
