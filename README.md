@@ -1,8 +1,8 @@
 # hello-travis-ci  
 
-面向Java Web项目的Travis CI 教程，主要介绍如何使用Travis CI的检验代码功能和Code Review功能. 
+Travis CI 教程，主要介绍如何使用Travis CI的检验代码功能和Code Review功能. 
 
-A tutorial of Travis CI for Java projects, and introduces how to use Travis CI's checking code function and Code Review function.
+A tutorial of Travis CI mainly introduces how to use Travis CI's checking code function and Code Review function.
 
 ## 目录
 
@@ -12,7 +12,8 @@ A tutorial of Travis CI for Java projects, and introduces how to use Travis CI's
     * [1.3 查看Travis-CI编译效果](#1.3-查看Travis-CI编译效果)
 * [2. Code Review](#2.-Code-Review)
 * [3. 总结](#3.-总结)        
-                                                                                                             
+
+                                                                                                            
 ## 1. 检验代码
 
 ### 1.1 注册Travis-CI
