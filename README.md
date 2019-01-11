@@ -30,6 +30,13 @@ jdk: oraclejdk8
 
 ps: gradlew是Gradle在Linux环境下的可执行脚本文件
 
+### 1.3 查看Travis-CI编译效果
+
+走到这一步后，我们每一次提交代码，都会触发Travis CI去检验代码的事件
+
+登陆Travis CI的官网，找到我们的hello-travis-ci项目，就能够直观的查看每一次编译结果：
+
+
 
 
 
